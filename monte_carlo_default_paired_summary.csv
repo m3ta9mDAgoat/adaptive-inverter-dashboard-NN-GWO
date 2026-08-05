@@ -1,0 +1,7 @@
+population,metric,samples,mean,ci95_lower,ci95_upper
+All comparable operating scenarios,Efficiency gain (pp),286,-0.07808712557881131,-0.08985829879801958,-0.0665128845529125
+All comparable operating scenarios,MOSFET loss reduction (W),286,8.82407887231952,7.620890959800408,10.103148832207495
+All comparable operating scenarios,Temperature saved (°C),286,10.228371105463646,8.811565046755831,11.740682801973367
+Light-load comparable scenarios,Efficiency gain (pp),75,1.8947806286936006e-16,-9.473903143468002e-16,1.5158245029548805e-15
+Heavy-load comparable scenarios,MOSFET loss reduction (W),136,18.556518805024872,17.376732264659196,19.77210256972069
+Heavy-load comparable scenarios,Temperature saved (°C),136,21.50966276590149,20.010020312665677,23.047873352928846
