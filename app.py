@@ -1050,4 +1050,14 @@ The relative thermal-lifetime metric uses an Arrhenius temperature-acceleration 
 APP = build_app()
 
 if __name__ == "__main__":
-    APP.queue().launch(css=CUSTOM_CSS)
+    import os
+
+    port = int(os.environ.get("PORT", "10000"))
+
+    APP.queue().launch(
+        server_name="0.0.0.0",
+        server_port=port,
+        css=CUSTOM_CSS,
+        show_error=True
+    )
+    
